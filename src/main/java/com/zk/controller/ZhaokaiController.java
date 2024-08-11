@@ -20,9 +20,13 @@ public class ZhaokaiController {
     @GetMapping("/test")
     @ResponseBody
     public String exportToWeb() {
-        String a = "为萨夫是德国";
-        System.out.println(a);
-        return a;
+
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("这是一个springboot+maven的测试项目, ");
+        System.out.println(stringBuffer.toString());
+        stringBuffer.append("成功使用jenkins流水线构建打包部署在docker中了！");
+        System.out.println(stringBuffer.toString());
+        return stringBuffer.toString();
     }
 
 }
