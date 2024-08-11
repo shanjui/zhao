@@ -2,10 +2,10 @@
 FROM openjdk:11-jdk
 
 # 将 JAR 文件复制到镜像中
-COPY /zhaokai-pro-1.0-SNAPSHOT.jar /zhaokai-pro.jar
+COPY /zhaokai-pro-1.0-SNAPSHOT.jar /etc/docker/zhaokai-pro.jar
 
 # 设置工作目录
-WORKDIR /etc/docker/jenkins_jar/
+WORKDIR /etc/docker/
 
 # 运行 JAR 文件
 ENTRYPOINT ["java", "-jar", "zhaokai-pro.jar"]
