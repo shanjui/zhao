@@ -1,2 +1,5 @@
-com\zk\controller\ZhaokaiController.class
+com\zk\TestThread.class
 com\zk\ZkApplication.class
+com\zk\ListNode.class
+com\zk\test.class
+com\zk\controller\ZhaokaiController.class

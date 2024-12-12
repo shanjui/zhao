@@ -26,6 +26,7 @@ public class ZhaokaiController {
         System.out.println(stringBuffer.toString());
         stringBuffer.append("成功使用jenkins流水线构建打包部署在docker中了！");
         System.out.println(stringBuffer.toString());
+        System.out.println(1/0);
         return stringBuffer.toString();
     }
 
